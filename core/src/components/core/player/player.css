@@ -23,7 +23,7 @@
   max-width: 100%;
   min-width: 275px;
   min-height: 40px;
-  position: var(--vm-player-position);
+  position: var(--vm-player-position, relative);
   text-shadow: none;
   outline: 0;
   transition: box-shadow 0.3s ease;
